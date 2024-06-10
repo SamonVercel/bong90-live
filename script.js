@@ -70,17 +70,6 @@ var swiper = new Swiper(".cubeSwiper2", {
   },
 });
 
-//gif
-
-document.getElementById("close-gif").addEventListener("click", function () {
-  document.getElementById("gif").style.left = "-8rem";
-});
-document.getElementById("close-chat").addEventListener("click", function () {
-  document.getElementById("chat").style.display = "none";
-});
-document.getElementById("show-chat").addEventListener("click", function () {
-  document.getElementById("chat").style.display = "flex";
-});
 
 //Get Date
 setInterval(() => {
